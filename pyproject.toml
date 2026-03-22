@@ -23,6 +23,7 @@ scipy = [
   { version = ">=1.14,<1.17", markers = "python_version >= '3.11' and python_version < '3.14'" },
   { version = ">=1.17", markers = "python_version >= '3.14'" }
 ]
+pillow = ">=10.0.0,<13.0.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.1.1"
