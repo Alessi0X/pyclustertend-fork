@@ -12,7 +12,7 @@ Three methods for assessing cluster tendency are currently implemented and one a
 - Metric based method (Silhouette [^2], Calinski-Harabasz [^3], Davies-Bouldin [^4])
 
 ## Installation
-To install the Python 3.14 compatible version of `pyclustertend`, you can use `pip` to install directly from the GitHub repository. Run the following command in your terminal:
+<!-- To install the Python 3.14 compatible version of `pyclustertend`, you can use `pip` to install directly from the GitHub repository. Run the following command in your terminal:
 ```shell
 pip install git+https://github.com/Alessi0X/pyclustertend-fork.git@upgrade-python-3.14
 ```
@@ -20,7 +20,11 @@ or, for the Python 3.13 compatible version:
 ```shell
 pip install git+https://github.com/Alessi0X/pyclustertend-fork.git@upgrade-python-3.13
 ```
-For info about the branches, please refer to the [Acknowledgments](#acknowledgments) section below.
+For info about the branches, please refer to the [Acknowledgments](#acknowledgments) section below. -->
+The package is available on PyPi and can be installed using `pip`:
+```shell
+pip install pyclustertend
+```
 
 ## Usage
 
@@ -64,14 +68,14 @@ For info about the branches, please refer to the [Acknowledgments](#acknowledgme
 It's preferable to scale the data before using hopkins or vat algorithm as they use distance between observations. Moreover, vat and ivat algorithms
 do not really fit to massive databases. A first solution is to sample the data before using those algorithms. 
 
-## Acknowledgments
+<!-- ## Acknowledgments
 
 This is a fork of the original [pyclustertend](https://github.com/lachhebo/pyclustertend) library by [Ismaïl Lachheb](https://github.com/lachhebo). The original library got somehow abandoned, and I decided to fork it and continue its development, especially in terms of compatibility with the latest versions of Python. This fork is structured as follows:
 - The original codebase is preserved in the `master` branch
 - The `upgrade-python-3.13` branch features updates to ensure compatibility with Python 3.13
 - The `upgrade-python-3.14` branch includes further updates for compatibility with Python 3.14
 
-Shout-out to Ismaïl Lachheb for creating the original `pyclustertend` library!
+Shout-out to Ismaïl Lachheb for creating the original `pyclustertend` library! -->
 
 
 [^1]: Hopkins, Brian; Skellam, J.G. (1954). "A new method for determining the type of distribution of plant individuals". _Annals of Botany_. **18** (2). Annals Botany Co: 213–227. doi:10.1093/oxfordjournals.aob.a083391
